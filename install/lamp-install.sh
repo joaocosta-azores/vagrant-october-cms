@@ -11,8 +11,10 @@ MYSQLUSER='root'
 SERVERNAME='dream-invoice.dev'
 EMAIL='freddy@freddyduarte.com'
 
-# Install and configure Apache
+# Refresh package index
 sudo apt-get update
+
+# Install and configure Apache
 sudo apt-get -y install apache2
 sudo apache2ctl configtest
 sudo systemctl restart apache2
@@ -50,8 +52,12 @@ mysql -u root -p$PASSWORD -e "create database $MYSQLDB"
 # Install PHP
 sudo apt-get -y install php libapache2-mod-php php-mcrypt php-mysql php7.0-zip php7.0-mbstring php-xml
 
-# Installing composer
+# Install composer
 sudo apt -y install composer
+
+# Install Node.js and npm
+sudo apt-get install nodejs
+sudo apt-get install npm
 
 # Installing multitail
 sudo apt -y install multitail
