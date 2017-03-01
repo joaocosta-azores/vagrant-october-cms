@@ -3,11 +3,11 @@
 Vagrant.require_version ">= 1.8.6"
 
 VAGRANT_API_VERSION = "2"
-GUEST_HOSTNAME = "dream-invoice.dev"
+GUEST_HOSTNAME = "PROJECT.dev"
 GUEST_NETWORK_IP = "192.168.59.76"
 GUEST_MEMORY_LIMIT = "1024"
 GUEST_CPU_LIMIT = "1"
-GUEST_DIRECTORY = "/var/www/dream-invoice"
+GUEST_DIRECTORY = "/var/www/PROJECT"
 
 #########################################################
 # You shouldn't have to modify anything below this line #
