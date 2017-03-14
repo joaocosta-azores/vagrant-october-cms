@@ -11,7 +11,6 @@ Provision scripts include:
 Custom configuration:
 - vhost for the project
 - dotfiles (.vimrc, .bash_aliases, .profile)
-- create db, run initial migrations
 - mariadb:
     - create db
     - run initial laravel migrations
@@ -26,7 +25,7 @@ Easily launch a new VM with Ubuntu and a skeleton Laravel project. Add a hosts l
 
 1. Copy this repo over to your new project directory
 
-``` cp -r vagrant-laravel-starter NEW-PROJECT ```
+    ``` cp -r vagrant-laravel-starter NEW-PROJECT ```
 
 2. Edit the Vagrantfile according to your needs
 
